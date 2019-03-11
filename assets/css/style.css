@@ -53,15 +53,16 @@ footer {
     font-size: 14px;
 }
 .place{
-    text-align: left;
     background-color: #4aaaa5;
-    width: 150px;
-    
-
-
+    width: 280px;
+    text-align: center;
 }
+.port-pics{
+    padding: 10px;
     
-    
+}
+
+
 
 
 
