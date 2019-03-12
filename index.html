@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Bootstrap Portfolio</title>
+  <!-- loaded the bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <!--load my style sheet-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+  <!--container to hold the bootstrap grid scafolding for top part of the page-->
   <div class="container">
     <header>
       <div class="row" id="head-row">
@@ -20,6 +22,7 @@
           <h1><span class="badge badge-secondary" id="name">Christopher Lane</span></h1>
         </div>
         <div class="col-md-8">
+          <!--THE NAV HAMBURGER... UGH-->
           <nav class="navbar navbar-expand-xs navbar-light bg-light">
             <a href="#" class="navbar-brand"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-list">
@@ -37,6 +40,7 @@
       </div>
     </header>
   </div>
+  <!--the caontainer to hold the bootstrap scafolding of the meat of the page-->
   <div class="container">
 
     <div class="row" id="about-row">
@@ -99,6 +103,7 @@
   </div>
 
   </div>
+  <!--Bootstrap javascript links needed to make the hamburger expand and collapse-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

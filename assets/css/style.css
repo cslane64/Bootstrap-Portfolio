@@ -1,47 +1,30 @@
 *{
     box-sizing: border-box;
  }
+ /* styles that are consistant throughout the body of the pages*/
  body{
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background-image: url(../images/hounds.png);
 }
+/* header styling */
 header{
     background-color: #fff;
-    
-    }
-
- #name{
-    background-color: #4aaaa5;
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
-    padding: 25px;
- }
- #about{
-    background-color: #fff;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
-    }
+}
+/* styling for the image on the about me page */
 img{
     margin-right: 10px;
 
 }
-.container{
-    background-color: #fff;
-    margin-bottom: 50px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #ddd;
-    padding: 25px;
-}
+/* set the color of the links to match paragraph*/
 a:link {
     color: #777;
 }
+/* set links to not change color when visited*/
 a:visited {
     color: #777;
 }
+/* Styling for the footer. */
 footer {
     border-top: 8px;
     border-style: solid;
@@ -52,19 +35,47 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+/* container styling to hold the grid layout */
+.container{
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 25px;
+}
+/* styling for h4 tags that overlay the pictures */
 .place{
     background-color: #4aaaa5;
     width: 280px;
     text-align: center;
     position: absolute;
     left: 25px;
-    bottom: 5px;
+    bottom: 10px;
 }
+/* picture styling. parent container for absolute position of h4 tags */
 .port-pics{
     padding: 10px;
     position: relative;
     
 }
+/* styling for header h1 tag */
+#name{
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding: 25px;
+ }
+ /* styling for each sections title */
+ #about{
+    background-color: #fff;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+
 
 
 
